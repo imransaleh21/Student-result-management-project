@@ -6,6 +6,7 @@ session_start();
 
 if(!isset($_SESSION['user_name'])){
    header('location:../sign_in_up/login_form.php');
+   
 }
 
 ?>
