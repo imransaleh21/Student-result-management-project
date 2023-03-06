@@ -1,0 +1,98 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+}
+.marks_container{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 11%; */
+    background: #eee;
+ }
+ .marks_container form{
+    border-radius: 10px;
+    box-shadow: 25px 22px 25px rgba(0, 0, 0, 0.737);
+    background: #8cccb7ad;
+    width: 850px;
+    height: 400px;
+ }
+
+.marks_container form .add_marks{
+      padding-left: 40px;
+}
+
+ .marks_container form h3{
+   font-size: 38px;
+   text-transform: uppercase;
+   padding-left: 300px;
+   color:#0e23c4;
+   padding-bottom: 14px;  padding-top: 14px;
+   font-family: 'Garamond';
+   text-shadow:4px 5px 2px rgba(0, 0, 0, 0.332);
+ }
+
+ .marks_container form .rc{
+    padding-left: 470px;
+    font-size: 25px;
+    color:#000000;
+    font-family: 'Courier New';
+    font-weight: bold;
+ }
+ .rc span{
+   font-family: 'Courier New';
+   font-size: 28px;
+ }
+
+ .marks_container form p input{
+  width: 15%;
+  padding:10px 10px;
+  font-size: 15px;
+  margin:8px 0;
+  background: #ffffffe6;
+  border-radius: 5px;
+}
+.marks_container form p span{
+   padding:12px;
+   font-size: 22px;
+   margin:8px 0;
+   font-weight: bold;
+   font-family: 'Courier New';
+ }
+ 
+ .marks_container form .form-btn{
+   background: #fbd0d9;
+   color:crimson;
+   text-transform: capitalize;
+   font-size: 30px;
+   padding: 8px;
+   font-weight: bold;
+   width: 35%;
+   border-radius: 5px;
+   margin:22px 230px;
+   font-family: Poppins;
+}
+
+.marks_container form .form-btn:hover{
+   background: crimson;
+   color:#fff;
+}
+
+/* viewresult & STU VIEW*/ 
+h3{
+   font-size: 35px!important;
+   color:#051ab8;
+   padding-left: 40%;
+   font-family: 'Georgia';
+   font-weight: bold!important;
+   text-transform: capitalize;
+}
+.course{
+   font-size: 22px;
+   color:#443f7d;
+   font-weight: bold;
+   font-family: 'Georgia';
+}
+

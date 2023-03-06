@@ -1,0 +1,255 @@
+*{
+    font-family: cursive,Poppins, sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+} 
+.header{
+   background-color: rgb(145 182 229);
+   line-height: 50px;
+   padding: 10px;
+   position:sticky;
+}
+
+.header a{
+   color: #2f2f6e;
+   text-decoration: none;
+ }
+ .desh{
+   font-size: 32px;
+   font-family: 'Courier New';
+ }
+ .desh:hover {
+   color: rgb(255, 255, 255);
+ }
+a,input{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+ #logout{
+    float: right;
+    padding-right: 10px; padding-left: 10px;
+    margin-right: 8px;
+    background: rgb(202 255 214);
+    border-radius: 5%;  
+    box-shadow: 15px 10px 14px rgba(0, 0, 0, 0.737);
+
+ }
+
+#logout:hover{
+   background: rgba(94, 7, 25, 0.856);
+   border-radius: 10%;
+   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.737);
+   color: rgb(255, 255, 255);
+}
+
+/* Sidebar */
+
+.ul-1{
+    background-color: rgb(157 159 173 / 33%);
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    box-shadow: 3px 1px 8px rgba(49, 41, 41, 0.248); 
+    padding-top: 18%;
+}
+
+.ul-1 li a,.ul-1 li input{
+    background: rgba(168, 166, 166, 0.774);
+    margin-top: 2px;
+
+    color: #343030;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+    display: block;
+}
+
+.ul-1 li a:hover, .ul-1 li input:hover{
+   background-color: #2b3c43d9; 
+   color: rgb(239, 255, 250);
+ }
+
+ .sub-1{
+   display: none;
+ }
+ .sub-1 li a{
+  background: #37535ec1; 
+  color: hwb(0 100% 0% / 0.819);
+  border-radius: 0px 4px 4px 0px;
+  margin-top: 1px; 
+ }
+ 
+ .view:hover .sub-1{
+      height: 99.5px;
+      width: 175px;
+      display: block;
+      position: absolute;
+      bottom: 45.3%; left: 25%;
+      margin-left: 75.5%;
+ }
+ .sub-1 li a:hover{
+   background-color: rgb(22, 21, 21);
+   color: rgb(255, 255, 255);
+ }
+
+ /* part-2 for view start here */
+
+ .sub-2, .sub-3{
+   display: none;
+ }
+ .sub-2 li input{
+   background: #2d333b69; 
+   color: #001242cd;
+   border-radius: 5px;
+   margin-top: 1px;
+ }
+ 
+ .view2:hover .sub-2{
+      display: block;
+      margin-left: 100.5%;
+
+      position: absolute;
+      bottom: 45px;
+ }
+ .sub-2 li input:hover{
+   background-color: rgb(22, 21, 21);
+   box-shadow: none;
+   color: rgb(188, 255, 231);
+ }
+
+ /* student view */
+ .sub-3 li input{
+  background: #687b96a3; 
+  color: #001242cd;
+  border-radius: 5px;
+  width: 212px;
+  font-size: 20px;
+ }
+ .view3:hover .sub-3{
+      display: block;
+      margin-left: 100.5%;
+      position: absolute;
+      top: 55px;
+ }
+ .sub-3 li input:hover{
+   background-color: rgba(81, 63, 63, 0.337);
+   color: rgb(0, 0, 0);
+   cursor:auto;
+   font-size: 20px;
+ }
+ #view{
+  background: #fbd0d9;
+  color:crimson;
+  font-size: 20px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 25%;
+}
+
+#view:hover{
+  background: crimson;
+  color:#fff;
+}
+
+
+/* For Marks Form */
+.form-container{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 10%; */
+    background: #eee;
+ }
+ 
+.form-container form{
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 25px 22px 25px rgba(0, 0, 0, 0.737);
+    background: #16112cad;
+    text-align: center;
+    width: 500px;
+ }
+ 
+ .form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:#85ff35;
+    padding-bottom: 10px;
+ }
+
+ .form-container form .id{
+   background-color: rgb(212, 255, 255);
+   color: rgb(0, 0, 0);
+   width: 60%;
+   text-align: center;
+ }
+
+.form-container form input,
+.form-container form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #96f8ffa6;
+   border-radius: 5px;
+   font-weight: bold;
+}
+
+.form-container form select option{
+    background: rgb(255, 255, 255);
+    font-weight: bold;
+ }
+ .form-container form .form-btn{
+    background: #fbd0d9;
+    color:crimson;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 60%;
+ }
+ 
+ .form-container form .form-btn:hover{
+    background: crimson;
+    color:#fff;
+ }
+ 
+ /* error messages */
+ .form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+.error{    /*this error message is for admin_page. this page call sidebar*/
+   display: block;
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 22px;
+   padding:10px;
+   text-transform: capitalize;
+   width: 42%;
+   text-align: center;
+   margin-top: 15%;
+   margin-left: 35%;
+   font-weight: bold;
+}
+/* add marks */
+.form-container .roll{
+    align-items: left;
+    /* justify-content: center; */
+    padding-bottom: 20%;
+    background: #eee;
+    color: #424a5b;
+}
